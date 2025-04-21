@@ -38,10 +38,7 @@ f_graph <- paste(final_output, collapse = " ")
 
 #grViz(f_graph)
 
-
-
-
-
+# run R shiny
 ui <- fluidPage(
   fluidRow(
     column(6,
