@@ -4,7 +4,6 @@ library(shiny)
 # read in the meta table
 meta <- get_pin("metadata_mmu.csv")
 
-
 # Create the string output for the flow chart: assay -> cohort
 result <- meta %>%
   distinct(assay, cohort) %>%
